@@ -1,0 +1,16 @@
+{
+  "server": {
+    "port": 3000,
+    "rateLimit": {
+      "windowMs": 900000,
+      "max": 100
+    }
+  },
+  "logging": {
+    "level": "info",
+    "file": "logs/application.log"
+  },
+  "database": {
+    "file": "data/esmpps.db"
+  }
+}
